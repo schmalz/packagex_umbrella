@@ -35,9 +35,10 @@ defmodule Packagex.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:poison, "~> 3.1"},
-     {:uuid, "~> 1.1"},
-     {:httpoison, "~> 0.13"}]
+    [{:poison, ">= 3.1.0"},
+     {:uuid, ">= 1.1.0"},
+     {:httpoison, ">= 0.13.0"},
+     {:amnesia, ">= 0.2.7"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
@@ -47,3 +48,4 @@ defmodule Packagex.Mixfile do
     []
   end
 end
+
